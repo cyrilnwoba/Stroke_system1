@@ -1,0 +1,62 @@
+{
+  "target": "stroke",
+  "feature_order": [
+    "age",
+    "glucose",
+    "bmi",
+    "hypertension",
+    "heart_disease",
+    "gender__Female",
+    "gender__Male",
+    "gender__Other",
+    "smoking_status__Unknown",
+    "smoking_status__formerly smoked",
+    "smoking_status__never smoked",
+    "smoking_status__smokes",
+    "ever_married__No",
+    "ever_married__Yes"
+  ],
+  "numeric": [
+    "age",
+    "glucose",
+    "bmi"
+  ],
+  "binary": [
+    "hypertension",
+    "heart_disease"
+  ],
+  "categorical": [
+    "gender",
+    "smoking_status",
+    "ever_married"
+  ],
+  "categories": {
+    "gender": [
+      "Female",
+      "Male",
+      "Other"
+    ],
+    "smoking_status": [
+      "Unknown",
+      "formerly smoked",
+      "never smoked",
+      "smokes"
+    ],
+    "ever_married": [
+      "No",
+      "Yes"
+    ]
+  },
+  "scaler": {
+    "means": [
+      43.35328767123288,
+      106.31716731898237,
+      28.88798923679061
+    ],
+    "stds": [
+      22.59405159481372,
+      45.254116442480864,
+      7.762520979981897
+    ]
+  }
+}
